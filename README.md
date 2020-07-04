@@ -1,3 +1,17 @@
+# Atividade 4 - Viking Activities - Interfaces
+
+###Melhore o seu projeto da Atividade 3 (Viking Activities), considerando o seguinte:###
+Utilize ConstraintLayout para todas as interfaces gráficas da aplicação.
+Testar em diferentes tamanhos de tela para que sempre fique "agradável".
+Produza uma versão alternativa em landscape (modo paisagem) para cada tela.
+Traduza e adapte todas as strings visíveis ao usuário para português, espanhol e inglês.
+O idioma padrão deve ser o inglês.
+Procure uma logo da série em SVG (vetorial) e crie um novo ícone para a aplicação utilizando a mesma.
+Dica: File | New | Vector Asset
+
+
+
+
 # Atividade 3 - Viking Activities
 
 Desenvolva um aplicativo para mostrar alguns personagens da série Vikings.
@@ -20,4 +34,4 @@ Para finds de Debug, mostre no LogCat cada vez que o usuário entrar ou sair de 
 | ![](images/floki.jpg)    | Floki           | Ragnar Lothbrok                                         |
 | ![](images/athelstan.jpg)| Athelstan       | Ragnar Lothbrok <br> Bjorn Ironside                     |
 | ![](images/bjorn.jpg)    | Bjorn Ironside  | Lagertha <br> Ragnar Lothbrok <br> Floki <br> Athelstan |
-# AppVikings
+
