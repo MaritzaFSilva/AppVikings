@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Ragnar</string>
+    <string name="athelstan_description">Athelstan was a young Anglo-Saxon, was taken as a slave by Ragnar Lothbrok and his fellow Vikings from the monastery of Lindisfarne.</string>
+    <string name="athelstan_name" translatable="false">Athelstan</string>
+    <string name="ragnar_name" translatable="false">Ragnar Lothbrok</string>
+    <string name="bjorn_name" translatable="false">Bjorn Ironside</string>
+    <string name="favorite_friends">Favorite Friends</string>
+    <string name="origin">You arrived at this character through:</string>
+    <string name="bjorn_description">Björn Ironside is the firstborn son of Ragnar Lothbrok in the series \"Vikings\".</string>
+    <string name="lagherta_name" translatable="false">Lagherta</string>
+    <string name="floki_name" translatable="false">Floki</string>
+    <string name="floki_description">Flóki Vilgerðarson was the first to deliberately sail to Iceland. The history of the important historical character is documented in the Landnámabók manuscript.</string>
+    <string name="lagherta_description">Lagertha was, according to local legends, a Viking skjaldmö who lived in the territory of present-day Norway, having been the first wife of the famous Viking warrior Ragnar Lodbrok.</string>
+    <string name="ragnar_description">Ragnar Lodbrok or Ragnar Hairy Pants was a legendary king of Denmark and Sweden, who would have reigned during the 8th and 9th centuries.</string>
+    <string name="rollo_name" translatable="false">Rollo</string>
+    <string name="rollo_description">Andarilho and sometimes Rolão, son of Ragnualdo, was a viking leader, founder and first ruler of the Duchy of Normandy in the period from 911 to 927.</string>
+    <string name="menu" translatable="false">Main Menu</string>
 </resources>

@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import kotlinx.android.synthetic.main.activity_ragnar.*
+import kotlinx.android.synthetic.main.activity_ragnar.btBjorn
+import kotlinx.android.synthetic.main.activity_ragnar.txOrigem
+import kotlinx.android.synthetic.main.activity_rollo.*
 
 class RagnarActivity : AppCompatActivity() {
 
@@ -13,10 +16,10 @@ class RagnarActivity : AppCompatActivity() {
         setContentView(R.layout.activity_ragnar)
 
         val bundle = Bundle()
-        bundle.putString("origem", "Ragnar Lothbrok")
+        bundle.putString("origem",  getString(R.string.ragnar_name))
 
         val info = intent.extras?.getString("origem")
-        txOrigem.text = "Você chegou nesse personagem através de: ${info}"
+        txOrigem.text = getString(R.string.origin) + "${info}"
 
         btLagherta.setOnClickListener {
             val intent = Intent(this, LaghertaActivity::class.java)

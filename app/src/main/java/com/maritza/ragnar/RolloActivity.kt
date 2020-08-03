@@ -12,10 +12,10 @@ class RolloActivity : AppCompatActivity() {
         setContentView(R.layout.activity_rollo)
 
         val bundle = Bundle()
-        bundle.putString("origem", "Rollo")
+        bundle.putString("origem",  getString(R.string.rollo_name))
 
         val info = intent.extras?.getString("origem")
-        txOrigem.text = "Você chegou nesse personagem através de: ${info}"
+        txOrigem.text = getString(R.string.origin) + "${info}"
 
         btBjorn.setOnClickListener {
             val intent = Intent(this, BjornActivity::class.java)

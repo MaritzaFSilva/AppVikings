@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ragnar</string>
+    <string name="athelstan_description">Athelstan era um jovem anglo-saxão, foi tomado como escravo por Ragnar Lothbrok e seus colegas Vikings do mosteiro de Lindisfarne.</string>
+    <string name="favorite_friends">Amigos Favoritos</string>
+    <string name="origin">Você chegou nesse personagem através de:</string>
+    <string name="bjorn_description">Björn Ironside é o filho primogênito de Ragnar Lothbrok na série “ Vikings “.</string>
+    <string name="floki_description">Flóki Vilgerðarson foi o primeiro a navegar deliberadamente para a Islândia. A história do importante personagem histórico está documentada no manuscrito de Landnámabók.</string>
+    <string name="lagherta_description">Lagertha foi, de acordo com as lendas locais, uma skjaldmö viquingue que viveu no território da atual Noruega, tendo sido a primeira esposa do célebre guerreiro viquingue Ragnar Lodbrok.</string>
+    <string name="ragnar_description">Ragnar Lodbrok ou Ragnar Calças Peludas foi um rei lendário da Dinamarca e da Suécia, que teria reinado durante os séculos VIII e IX.</string>
+    <string name="rollo_description">Andarilho e às vezes Rolão, filho de Ragnualdo, foi um líder viquingue, fundador e primeiro governante do Ducado da Normandia no período de 911 a 927.</string>
+</resources>

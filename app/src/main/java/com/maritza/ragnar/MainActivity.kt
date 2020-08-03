@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val bundle = Bundle()
-        bundle.putString("origem", "Menu Principal")
+        bundle.putString("origem",  getString(R.string.menu))
 
         btRagnar.setOnClickListener {
             val intent = Intent(this, RagnarActivity::class.java)

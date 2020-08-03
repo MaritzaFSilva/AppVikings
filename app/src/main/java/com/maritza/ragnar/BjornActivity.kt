@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_bjorn.*
+import kotlinx.android.synthetic.main.activity_bjorn.txOrigem
+import kotlinx.android.synthetic.main.activity_rollo.*
 
 class BjornActivity : AppCompatActivity() {
 
@@ -12,10 +14,10 @@ class BjornActivity : AppCompatActivity() {
         setContentView(R.layout.activity_bjorn)
 
         val bundle = Bundle()
-        bundle.putString("origem", "Bjorn Ironside")
+        bundle.putString("origem",  getString(R.string.bjorn_name))
 
         val info = intent.extras?.getString("origem")
-        txOrigem.text = "Você chegou nesse personagem através de: ${info}"
+        txOrigem.text = getString(R.string.origin) + "${info}"
 
         btRagnar.setOnClickListener {
             val intent = Intent(this, RagnarActivity::class.java)
